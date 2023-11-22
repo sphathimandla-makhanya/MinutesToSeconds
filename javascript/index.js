@@ -24,3 +24,12 @@ min.addEventListener("input", toSeconds);
 
 //Added an event listner to the input tag so it can be automatically activated when an input is entered and be displayed in the minutes section
 sec.addEventListener("input", toMinutes);
+
+
+// adding event listner to reset the input and answer
+let btn = document.getElementById('btn')
+btn.addEventListener('click', function () {
+    resizeBy.value="";
+    min.value="";
+    sec.value="";
+})
