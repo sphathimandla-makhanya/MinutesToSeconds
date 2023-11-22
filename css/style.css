@@ -1,44 +1,61 @@
 *{
-    /* padding: 0%;
-    margin: 0%; */
+    padding: 0%;
+    margin: 0%;
 }
 
+/* body{
+    width: 100%;
+    overflow: auto;
+} */
+
+
+h2{
+    text-align: center;
+    font-size: xx-large;
+}
 .main{
-   margin-top: 25px; 
+   margin-top: 15rem; 
    display: table;
-   padding: 15px;
+   padding-bottom: 15px;
+   padding-top: 10px;
    background-color:#42f578;
    border: solid 2.5px black;
-   border-radius: 5px;
+   align-items: center;
+   width: 100%;
+   text-align: center;
 }
 .main label{
     display: table-row;
     font-weight: bold;
+    font-size: large;
+    text-align: center;
 }
 
 .main input{
     display: table-row;
-    padding: 3px;
+    padding: 5px;
     border-radius: 5px;
-}
-
-/* .main{
-    justify-content: center;
+    height: 1rem;
     text-align: center;
     align-items: center;
-    margin-left: 15rem;
-    flex-wrap: wrap;
-    margin-top: 15rem;
+    font-size: large;
 }
 
-@media screen and (min-width: 300px) {
-    .main{
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        margin-left: 15rem;
-        flex-wrap: wrap;
-        margin-top: 15rem;
+#btn{
+    margin-top: 10px;
+    background-color: lightskyblue;
+    padding: 5px;
+    border-radius: 10px 5px 10px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 300px) {
+    .main input{
+        width: 50%;
     }
-    
-} */
+}
+@media screen and (min-width: 720px) {
+    .main input{
+        width: 80%;
+    }
+}
